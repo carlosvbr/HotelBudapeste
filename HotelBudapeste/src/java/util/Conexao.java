@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-    private static final String URL = "jdbc:postgresql://localhost:5432/HotelBudapeste2";
-    private static final String USUARIO = "postgres";
-    private static final String SENHA = "1234";
+    private static final String URL = "db_URL";
+    private static final String USUARIO = "db_user";
+    private static final String SENHA = "db_password";
 
 
     public static Connection getConnection() throws SQLException {
