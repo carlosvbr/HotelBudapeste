@@ -8,16 +8,12 @@ import java.util.List;
 import java.util.Objects;
 
 
-/**
- *  - 1:1 com Quarto 
- *  - 1:N com Hospede 
- */
 public class Hospedagem implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private int id;
-    private Quarto quarto;                 // 1:1
-    private List<Hospede> hospedes;        // 1:N
+    private Quarto quarto;                 
+    private List<Hospede> hospedes;        
     private LocalDate dataEntrada;
     private LocalDate dataSaida;
     private double valorTotal;
